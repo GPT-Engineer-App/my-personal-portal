@@ -1,6 +1,6 @@
-import React from 'react';
-import { Box, Flex, Text, Link } from '@chakra-ui/react';
-import { FaHome } from 'react-icons/fa';
+import React from "react";
+import { Box, Flex, Text, Link } from "@chakra-ui/react";
+import { FaHome } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -9,7 +9,12 @@ function Navbar() {
         <FaHome />
       </Box>
       <Box>
-        <Link p="2">Home</Link>
+        <Link p="2" href="/">
+          Home
+        </Link>
+        <Link p="2" href="/about-us">
+          About Us
+        </Link>
       </Box>
     </Flex>
   );
