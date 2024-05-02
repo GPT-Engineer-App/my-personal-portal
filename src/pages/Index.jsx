@@ -27,6 +27,9 @@ const Index = () => {
           </Flex>
         </VStack>
       </Box>
+      <Flex width="full" justify="center" p={4}>
+        <Text fontSize="sm">&copy; 2024 John Doe. All rights reserved.</Text>
+      </Flex>
     </Flex>
   );
 };
